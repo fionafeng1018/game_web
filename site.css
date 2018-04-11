@@ -8,6 +8,7 @@ body{
     background-size: cover;
 	background-attachment: fixed;
 	font-family: "Avenir";
+	font-weight: 100;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -32,3 +33,24 @@ a{
 	padding-right: 50px;
 }
 
+.text_description{
+	color: #FCFCFC;
+	font-size: 24px;
+	background-color:#000000;
+	opacity: 0.6;
+	padding: 20px;
+	
+}
+
+.row{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul{
+	list-style: none;
+}
+
+.streamer_image{
+	width: 500px;
+}
