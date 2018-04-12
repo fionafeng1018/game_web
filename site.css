@@ -1,56 +1,70 @@
 /* CSS Document */
 
-body{
-	background-image:url(images/main.jpg);
+body {
+	background-image: url(images/main.jpg);
 	height: 100%;
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	font-family: "Avenir";
 	font-weight: 100;
+	color: #FFFFFF;
 }
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color:#ffffff;
-}
-.navbar .navbar-collapse {
-  	font-size: 24px;
- 	padding: 10px 30px 10px 50px;
-  	opacity: 0.8;
-}
-a{
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
 }
-
-.logo{
+.navbar .navbar-collapse {
+	font-size: 24px;
+	padding: 10px 30px 10px 50px;
+	opacity: 0.8;
+}
+a {
+	color: #ffffff;
+}
+.logo {
 	height: 50px;
 	width: 75px;
-} 
-
-.navbar-header{
+}
+.navbar-header {
 	padding-right: 50px;
 }
-
-.text_description{
+.text_description {
 	color: #FCFCFC;
 	font-size: 24px;
-	background-color:#000000;
+	background-color: #000000;
 	opacity: 0.6;
 	padding: 20px;
-	
 }
-
-.row{
+.row {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-
-ul{
+ul {
 	list-style: none;
 }
-
-.streamer_image{
+.weapon li {
+	display:inline-block;
+}
+.weapon li> img:hover{
+	background-color:#DBDBDB;
+	opacity: 0.8;
+	
+}
+.streamer_image {
 	width: 500px;
+}
+
+.gbox{
+	width: 120px;
+	padding: 10px;
+}
+
+.weapon_con{
+	width: 90%;
+}
+
+.weapon_intro_img{
+	height: 70%;
+	width: 70%;
 }
