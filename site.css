@@ -9,7 +9,12 @@ body {
 	background-attachment: fixed;
 	font-family: "Avenir";
 	font-weight: 100;
-	color: #FFFFFF;
+}
+.main_container{
+	background-color: #ffffff;
+	width:70%;
+	border-radius: 25px;
+	padding-bottom: 100px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
@@ -30,10 +35,9 @@ a {
 	padding-right: 50px;
 }
 .text_description {
-	color: #FCFCFC;
+	color: #000000;
 	font-size: 24px;
-	background-color: #000000;
-	opacity: 0.6;
+	background-color: #ffffff;
 	padding: 20px;
 }
 .row {
@@ -59,12 +63,20 @@ ul {
 	width: 120px;
 	padding: 10px;
 }
+.gbox2{
+	width: 120px;
+	padding: 10px;
+}
+.gbox3{
+	width: 120px;
+	padding: 10px;
+}
 
 .weapon_con{
 	width: 90%;
 }
 
-.weapon_intro_img{
-	height: 70%;
-	width: 70%;
+.intro_img{
+	height: 90%;
+	width: 90%;
 }

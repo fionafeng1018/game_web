@@ -11,10 +11,9 @@
 <script src="http://use.edgefonts.net/avenir:n4:default.js" type="text/javascript"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
 <body>
-<nav class="navbar ">
+<nav class="navbar">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="myNavbar">
       <div class="navbar-header"> <img class="logo" src="images/logo.png"> </div>
@@ -28,26 +27,97 @@
     </div>
   </div>
 </nav>
-	<div class="container text-center weapon_con">
-	<div class="row weapon">
-	<h1>WEAPON</h1>
-		<ul class="weapon_gallery">
-              <li><img src="images/weapon/assault rifles logo.png" class="gbox" id="0"></li>
-              <li><img src="images/weapon/melee weapons logo.png" class="gbox" id="1"></li>
-              <li><img src="images/weapon/miscellaneous weapons logo.png" class="gbox" id="2"></li>
-              <li><img src="images/weapon/pistols logo.png" class="gbox" id="3"></li>
-              <li><img src="images/weapon/shotguns logo.png" class="gbox" id="4"></li>
-              <li><img src="images/weapon/sniper rifles logo.png" class="gbox" id="5"></li>
-              <li><img src="images/weapon/submachine guns logo.png" class="gbox" id="6"></li>
-              <li><img src="images/weapon/throwable weapons logo.png" class="gbox" id="7"></li>
-        </ul>
-	</div>
-	<div class="row">
-		<div class="text-center" id="weapon_intro_container">
-			<img class="weapon_intro_img" src="images/weapon/assault rifles.jpg" id="weapon_intro_img">
-		</div>
-	</div>
-	</div>
+<div class="container main_container">
+<div class="container text-center weapon_con">
+  <div class="row weapon">
+    <h1>WEAPONS</h1>
+    <ul class="weapon_gallery">
+      <li><img src="images/weapon/assault rifles logo.png" class="gbox" id="0"></li>
+      <li><img src="images/weapon/melee weapons logo.png" class="gbox" id="1"></li>
+      <li><img src="images/weapon/miscellaneous weapons logo.png" class="gbox" id="2"></li>
+      <li><img src="images/weapon/pistols logo.png" class="gbox" id="3"></li>
+      <li><img src="images/weapon/shotguns logo.png" class="gbox" id="4"></li>
+      <li><img src="images/weapon/sniper rifles logo.png" class="gbox" id="5"></li>
+      <li><img src="images/weapon/submachine guns logo.png" class="gbox" id="6"></li>
+      <li><img src="images/weapon/throwable weapons logo.png" class="gbox" id="7"></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="text-center"> <img class="intro_img" src="images/weapon/assault rifles.jpg" id="weapon_intro_img"> </div>
+  </div>
+</div>
+<div class="container text-center weapon_con">
+  <div class="row weapon">
+    <h1>ARMORS</h1>
+    <ul class="weapon_gallery">
+      <li><img src="images/armor/防具-armored vests logo.png" class="gbox2" id="8"></li>
+      <li><img src="images/armor/防具-back logo.png"  class="gbox2" id="9"></li>
+      <li><img src="images/armor/防具-headgear logo.png"  class="gbox2" id="10"></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="text-center"> <img class="intro_img" src="images/armor/防具-armored vests.jpg" id="armor_intro_img"> </div>
+  </div>
+</div>
+<div class="container text-center weapon_con">
+  <div class="row weapon">
+    <h1>SUPPLIES</h1>
+    <ul class="weapon_gallery">
+      <li><img src="images/supplies/消耗品-ammunition logo.png" class="gbox3" id="11"></li>
+      <li><img src="images/supplies/消耗品-supplies logo.png"  class="gbox3" id="12"></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="text-center"> <img class="intro_img" src="images/supplies/消耗品-ammunition.jpg" id="supplies_intro_img"> </div>
+  </div>
+</div>
+<div class="container text-center appearence">
+   <h1>CHARACTER APPEARENCE</h1>
+   <img src="images/appearence1/appearance desperado-crate.png">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active"> <img src="images/appearence1/appearance1.jpg" alt="appearance1"> </div>
+        <div class="item"> <img src="images/appearence1/appearance2.jpg" alt="appearance2"> </div>
+        <div class="item"> <img src="images/appearence1/appearance3.jpg" alt="appearance3"> </div>
+        <div class="item"> <img src="images/appearence1/appearance7.jpg" alt="appearance7"> </div>
+        <div class="item"> <img src="images/appearence1/appearance8.jpg" alt="appearance8"> </div>
+      </div>    
+      <!-- Left and right controls --> 
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a> 
+      </div>
+</div>
+<div class="container text-center appearence">
+  <h1>WEAPON APPEARENCE</h1>
+   <img src="images/appearence2/logo.png">
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active"> <img src="images/appearence2/appearance4.jpg" alt="appearance4"> </div>
+        <div class="item"> <img src="images/appearence2/appearance5.jpg" alt="appearance5"> </div>
+        <div class="item"> <img src="images/appearence2/appearance6.jpg" alt="appearance6"> </div>
+      </div>    
+      <!-- Left and right controls --> 
+      <a class="left carousel-control" href="#myCarousel2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a> 
+      </div>	
+</div>
+</div>
 </body>
 <script src="site.js"></script>
 </html>
