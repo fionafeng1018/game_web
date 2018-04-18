@@ -9,6 +9,7 @@ body {
 	background-attachment: fixed;
 	font-family: "Avenir";
 	font-weight: 100;
+	color:rgba(70,59,49,1.00);
 }
 .main_container{
 	background-color:rgba(255,255,255,0.80);
@@ -19,10 +20,16 @@ body {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
 }
-.navbar .navbar-collapse {
-	font-size: 24px;
-	padding: 10px 30px 10px 50px;
+.navbar{
+	font-size: 28px;
+	padding: 20px 10px 10px 30px;
 	opacity: 0.8;
+	font-weight: 700;
+	background:rgba(228,141,0,0.50)
+	
+}
+.navbar-nav .active{
+	color:rgba(228,141,0,1.00);
 }
 a {
 	color: #ffffff;
@@ -39,7 +46,7 @@ a {
 	font-size: 24px;
 	background-color:rgba(255,255,255,0.90);
 	padding: 20px;
-	border-radius: 25px;
+	border-radius: 10px;
 }
 
 .row {
@@ -113,4 +120,27 @@ ul {
 	color:rgba(255,255,255,1.00);
 	position: fixed;
 	bottom:0px;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.contact_img{
+	height: 600px;
+	width: 400px;
+}
+.contact_text{
+	padding-top: 50px;
+}
+
+.contact_text {
+	color:rgba(69,59,49,1.00);
+	text-align: center;
+}
+
+.contact{
+	width: 60%;
 }
