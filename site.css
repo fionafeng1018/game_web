@@ -116,10 +116,10 @@ ul {
 }
 
 .copyright_index{
-	text-align: center;
 	color:rgba(255,255,255,1.00);
-	position: fixed;
+	position:fixed;
 	bottom:0px;
+	right: 15px;
 }
 
 .content {
